@@ -1,0 +1,6 @@
+contenedor cabecera : #A21232
+contenedor de inputs: #1A1831
+background inputs: #20615B
+color de fuente: #DECE9C
+color boton:  #A21232
+body: #F2EEE3

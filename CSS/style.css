@@ -1,0 +1,102 @@
+body{
+  height: 100vh;
+  background: #F2EEE3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+input{
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 20px;;
+  padding: 20px;
+  margin: 20px;
+
+
+  color: #DECE9C;
+  background-color:  #20615B;
+
+  border: none;
+  border-left: 4px solid  #A21232;
+}
+
+input[type="submit"]{
+  border-left: 4px solid #20615B;
+  width: 150px;
+  background-color: #A21232;
+  padding: 10px;
+
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.letra{
+  color: #DECE9C;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.cabecera{
+  width: 100%;
+  background: #A21232;
+  border-radius: 20px 20px 0 0  ;
+  border-bottom: 8px solid #20615B;
+}
+
+.inputs{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+
+
+  border-radius: 0 0 20px 20px;
+  background: #1A1831;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************************** VERSION MOBILE *******************************/
+
+@media screen and (max-width: 420px) {
+
+  .contenedor{
+    width: 100%;
+  }
+
+}
+
+/***************************** VERSION TABLET *******************************/
+@media screen and (max-width: 1024px){
+
+  .contenedor{
+    width: 70%;
+  }
+
+}
+
+
+/***************************** VERSION LAPTOP  *******************************/
+@media screen and (max-width: 1440px){
+
+  .contenedor{
+    width: 60%;
+  }
+
+}
