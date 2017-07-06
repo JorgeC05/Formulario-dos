@@ -83,20 +83,20 @@ input[type="submit"]:hover{
 }
 
 /***************************** VERSION TABLET *******************************/
-@media screen and (max-width: 1024px){
+/*@media screen and (max-width: 1024px){
 
   .contenedor{
     width: 70%;
   }
 
-}
+}*/
 
 
 /***************************** VERSION LAPTOP  *******************************/
-@media screen and (max-width: 1440px){
+/*@media screen and (max-width: 1440px){
 
   .contenedor{
     width: 60%;
   }
 
-}
+}*/
