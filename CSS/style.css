@@ -74,7 +74,7 @@ input[type="submit"]:hover{
 
 /***************************** VERSION MOBILE *******************************/
 
-@media screen and (max-width: 420px) {
+@media (max-width: 760px) {
 
   .contenedor{
     width: 100%;
@@ -82,21 +82,20 @@ input[type="submit"]:hover{
 
 }
 
-/***************************** VERSION TABLET *******************************/
-/*@media screen and (max-width: 1024px){
-
-  .contenedor{
-    width: 70%;
-  }
-
-}*/
-
-
-/***************************** VERSION LAPTOP  *******************************/
-/*@media screen and (max-width: 1440px){
+@media  (min-width: 768px) {
 
   .contenedor{
     width: 60%;
+
   }
 
-}*/
+}
+
+@media  (min-width: 1024px) {
+
+  .contenedor{
+    width: 30%;
+
+  }
+
+}
